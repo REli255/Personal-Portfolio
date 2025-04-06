@@ -78,7 +78,7 @@ def special_choices():
             print("that is not an option")
 
 # function with the main user interface
-def main():
+def password_management():
     print("Random Password Generator")
     length = int(input("How many characters long do you want the password to be: "))
     # section to activate other functions
@@ -98,7 +98,7 @@ def main():
 
 # loop that makes sure the program continues until the user is done 
 while True:
-    main()
+    password_management()
     end = input("do you want to make another password: ")
     if end == "yes" or end == "Yes" or end == "YES":
         character_types = []
