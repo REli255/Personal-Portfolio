@@ -41,7 +41,7 @@ Working Projects:
 from average_grade.main_a import grades
 from character_creator.main_c import select
 from Graded_Quiz.main_g import quiz
-from Random_Password_Generator.main_R import password_management
+from Random_Password_Generator.main_p import password_management
 from Rock_Paper_Scissors.main_r import battle
 from Tic_Tac_Toe_game.main_t import game
 

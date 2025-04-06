@@ -98,9 +98,12 @@ def password_management():
 
 # loop that makes sure the program continues until the user is done 
 while True:
-    password_management()
-    end = input("do you want to make another password: ")
-    if end == "yes" or end == "Yes" or end == "YES":
-        character_types = []
-    elif end == "no" or end == "No" or end == "NO":
-        break
+    try:
+        password_management()
+        end = input("do you want to make another password: ")
+        if end == "yes" or end == "Yes" or end == "YES":
+            character_types = []
+        elif end == "no" or end == "No" or end == "NO":
+            break
+    except:
+        print("you must enter a whole number")
