@@ -47,6 +47,7 @@ from Tic_Tac_Toe_game.main_t import game
 
 # function with the user interface
 def main():
+    # user input that lets them select a program to run
     choice = input("""1. Average Grade program
     2. Character Creator program
     3. Graded Quiz program
@@ -55,29 +56,34 @@ def main():
     6. Tic-Tac-Toe Game program
     7. End
     Enter the number of the thing you would like to do: """)
+
+    # conditional that runs the selected porgram after printing information about it
     if choice == "1":
-        print("This program lets a user enter their grades and get back the average.")
+        print("\nThis program lets a user enter their grades and get back the average.\n")
         grades()
     elif choice == "2":
-        print("This program lets a user choose a name, race, and class for a character. Then it displays that character's information/stats.")
+        print("\nThis program lets a user choose a name, race, and class for a character. Then it displays that character's information/stats. this is my favorite project I have made.\n")
         select()
     elif choice == "3":
-        print("This program lets a user take a quiz. Then it gives them a grade.")
+        print("\nThis program lets a user take a quiz. Then it gives them a grade.\n")
         quiz()
     elif choice == "4":
-        print("This program lets a user generate a password of a specified length and containing selected character types.")
+        print("\nThis program lets a user generate a password of a specified length and containing selected character types.\n")
         password_management()
     elif choice == "5":
-        print("This program lets a user play rock, paper, scissors aginst the computer.")
+        print("\nThis program lets a user play rock, paper, scissors aginst the computer.\n")
         battle()
     elif choice == "6":
-        print("This program lets a user play Tic-Tac-Toes aginst the computer.")
+        print("\nThis program lets a user play Tic-Tac-Toes aginst the computer. It tought me how to loop through a grid.\n")
         game()
     elif choice == "7":
         return "end"
     else:
         print("that is not an option")
         print("you must enter the number to the left of the program you want to run.")
+
+# statement that prints the introduction
+print("\nThis project is a portfolio of a few of the projects I have made in the programing classes I have taken.\nThe user must select the program they want to run by entering the number to the left of it. Then the selected program will run.\n")
 
 # loop that makes sure the program continues until the user is done 
 while True:
