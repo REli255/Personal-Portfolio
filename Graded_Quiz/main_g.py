@@ -7,7 +7,7 @@ def quiz():
     question_b = int(input("what does 65+78 equal: "))
     question_c = int(input("what does 54*3 equal: "))
     question_d = int(input("what does 33-56 equal: "))
-    question_e = int(input("what does 132/11 equal: "))
+    question_e = float(input("what does 132/11 equal: "))
 
     answer_a = 72
     answer_b = 153

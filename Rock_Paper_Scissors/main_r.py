@@ -2,8 +2,6 @@
 
 import random
 
-
-choose = input("would you like to play Rock, Paper, Scissors?: ")
 rps = ["Rock", "Paper", "Scissors"]
 
 def battle():
@@ -56,3 +54,8 @@ def battle():
     
         if again == "no":
             break
+
+if __name__ == "__main__":  
+    choose = input("would you like to play Rock, Paper, Scissors?: ")
+    if choose == "yes":
+        battle()
