@@ -59,22 +59,22 @@ def main():
 
     # conditional that runs the selected porgram after printing information about it
     if choice == "1":
-        print("\nThis program lets a user enter their grades and get back the average.\n")
+        print("\nThis program lets a user enter their grades and get back the average. This was a easy project. I learned to average in code.\n")
         grades()
     elif choice == "2":
-        print("\nThis program lets a user choose a name, race, and class for a character. Then it displays that character's information/stats. this is my favorite project I have made.\n")
+        print("\nThis program lets a user choose a name, race, and class for a character. Then it displays that character's information/stats. This is my favorite project I have made. I leaerned how to use conditonals.\n")
         select()
     elif choice == "3":
-        print("\nThis program lets a user take a quiz. Then it gives them a grade.\n")
+        print("\nThis program lets a user take a quiz. Then it gives them a grade. This was a easy project. I learned to check acuracy.\n")
         quiz()
     elif choice == "4":
-        print("\nThis program lets a user generate a password of a specified length and containing selected character types.\n")
+        print("\nThis program lets a user generate a password of a specified length and containing selected character types. This was a fun project. I learned to use specified lists.\n")
         password_management()
     elif choice == "5":
-        print("\nThis program lets a user play rock, paper, scissors aginst the computer.\n")
+        print("\nThis program lets a user play rock, paper, scissors aginst the computer. This was a challenging project. I learned how to check winning conditions and random.\n")
         battle()
     elif choice == "6":
-        print("\nThis program lets a user play Tic-Tac-Toes aginst the computer. It tought me how to loop through a grid.\n")
+        print("\nThis program lets a user play Tic-Tac-Toes aginst the computer. This was a challenging project. It tought me how to loop through a grid.\n")
         game()
     elif choice == "7":
         return "end"
